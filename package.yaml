@@ -1,0 +1,21 @@
+name: g60-demo
+version: 0.1.0
+synopsis: G60 encoding.
+author: Galen Huntington <galen@alumni.reed.edu>
+license: MIT
+category: Codec
+
+source-dirs:
+   - .
+
+library: {}
+
+executable:
+   main: demo.hs
+
+dependencies:
+   - base >= 4.9 && < 5
+   - bytestring >= 0.10 && < 0.11
+   - vector >= 0.12 && < 0.13
+   - split >= 0.2 && < 0.3
+

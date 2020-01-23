@@ -1,0 +1,41 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 1d0edaa93b4884a5c3d77a28cc50fbcde1bab87a243c171023246b7b1b25086b
+
+name:           g60-demo
+version:        0.1.0
+synopsis:       G60 encoding.
+category:       Codec
+author:         Galen Huntington <galen@alumni.reed.edu>
+maintainer:     Galen Huntington <galen@alumni.reed.edu>
+license:        MIT
+build-type:     Simple
+
+library
+  other-modules:
+      Paths_g60_demo
+  hs-source-dirs:
+      ./.
+  build-depends:
+      base >=4.9 && <5
+    , bytestring >=0.10 && <0.11
+    , split >=0.2 && <0.3
+    , vector >=0.12 && <0.13
+  default-language: Haskell2010
+
+executable g60-demo
+  main-is: demo.hs
+  other-modules:
+      Paths_g60_demo
+  hs-source-dirs:
+      ./.
+  build-depends:
+      base >=4.9 && <5
+    , bytestring >=0.10 && <0.11
+    , split >=0.2 && <0.3
+    , vector >=0.12 && <0.13
+  default-language: Haskell2010
