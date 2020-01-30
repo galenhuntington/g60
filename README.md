@@ -348,14 +348,14 @@ to determine the fourth character.  However, with multiplying _D_ by 9,
 data past _D_ may be needed too, because if _D_ is 133 and _C_ is 1, we
 get a range from these two of 3597 to 3606 (×60⁵), which spans 60².
 
-However, this is only a single “bad” value of _D_, so all we have
-to do is modify the gapping so it shifts over it.  For example, for
-_D_⩾133 we can just add 3 to the numeric, and the problem is solved.
-As another option, instead of 9·_D_, we could use ⌊75·_D_/8⌋,
-with a recurring pattern of gaps of 9 or 10.  But in my view the
-simplest is to divide the _D_ range in half; at _D_=128, we shift
-up to 3600.  The top bit of _D_ is handled separately from the rest,
-and can be put it in a polynomial.
+However, this is only a single “bad” value of _D_, so all we
+have to do is modify the gapping so it shifts over it.  For example,
+for _D_&#xfeff;⩾133 we can just add 3 to the numeric, and the
+problem is solved.  As another option, instead of 9·_D_, we could
+use ⌊75·_D_/8⌋, with a recurring pattern of gaps of 9 or 10.
+But in my view the simplest is to divide the _D_ range in half;
+at _D_=128, we shift up to 3600.  The top bit of _D_ is handled
+separately from the rest, and can be put it in a polynomial.
 
 None of the other coefficients have any such problem or can be improved
 in such a way.
@@ -379,8 +379,8 @@ between mappings from _G_ must still be at least 5, but we can get the
 coefficient on _F_ down to 21, a divisor of 63.  Thus, we can have a
 map where the 8th byte does not depend on _G_, not even by one bit
 as in _χ_=60.  Also, the 9 coefficient on _D_ is a divisor of 63,
-which further increases locality.  However, at _χ_=62 we cannot get
-any of these benefits.
+which further increases locality.  However, _χ_=62 is not enough to
+get these benefits.
 
 There might be some unforeseen reason why the dispensation of _D_
 would be better handled, say, in one of the alternative ways mentioned.
