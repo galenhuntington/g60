@@ -285,7 +285,7 @@ it is desirable to limit these effects.
 The culprit is the factor of 7.  To illustrate, fix _B_ at 14.
 Then 70·_B_+_C_ ranges from 980 to 1005.  So the effects of _C_
 can reach into the thousands digit.  And, as we saw, it can reach
-into the ten-thousands.  In general, if coefficient factor is not a
+into the ten-thousands.  In general, if a coefficient factor is not a
 divisor of some number (such as 1000), then one of these ranges will
 generally cross a multiple of it.
 
@@ -319,7 +319,7 @@ can be 13 or 14.  The others are fixed: _H_ at 1 of course, _E_ at 2,
 _D_ at 9, and _B_ at 3.  There are 80 choices in all.
 
 The _A_ one doesn’t matter much since nothing is before it, but
-being even reduces the affect on the first digit a little.  For _C_,
+being even reduces the effect on the first digit a little.  For _C_,
 40 is clearly best, not quite dividing 60, but only being off by a
 factor of two (which means only one bit of effect), and dividing 60².
 The same is true of 24 for _F_, and for _G_ there is no reason to
