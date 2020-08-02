@@ -367,7 +367,9 @@ It is good to have a finalized spec.  Are there any improvements that
 might be made?
 
 The choice of letters to _not_ use is probably optimal, as `I` and
-`O` are invariably the most visually troublesome.
+`O` are among the most visually troublesome, being close to `1` and
+`l`, and to `0`, respectively, and also by eliminating vowels we
+reduce the chance of spelling out words.
 
 We could also ask if we do use all letters, with _χ_=62, can we
 improve, say, locality?  We would part with using a polynomial and
@@ -385,9 +387,9 @@ get these benefits.
 There might be some unforeseen reason why the dispensation of _D_
 would be better handled, say, in one of the alternative ways mentioned.
 
-Finally, without changing the spec, it may be clearer to dispense
-with _Dₗ_ and write the polynomial entries as 40·60⁶·_C_ +
-60⁵·(48·_Dₕ_ + 9·_D_), that is, with the rows as these:
+Finally, without changing the spec, it may be clearer to drop _Dₗ_
+and write the polynomial entries as 40·60⁶·_C_ + 60⁵·(48·_Dₕ_
++ 9·_D_), that is, with the rows as these:
 
 ```
                48 00 00 00 00 00  × Dₕ
