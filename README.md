@@ -388,8 +388,8 @@ There might be some unforeseen reason why the dispensation of _D_
 would be better handled, say, in one of the alternative ways mentioned.
 
 Finally, without changing the spec, it may be clearer to drop _Dₗ_
-and write the polynomial entries as 40·60⁶·_C_ + 60⁵·(48·_Dₕ_
-+ 9·_D_), that is, with the rows as these:
+and write the polynomial entries as 40·60⁶·_C_ + 60⁵·(48·_Dₕ_ + 9·_D_),
+that is, with the rows as these:
 
 ```
                48 00 00 00 00 00  × Dₕ
