@@ -150,7 +150,7 @@ To see locality in action, compare what `Hella, would???` encodes to:
 Gt4CGFEHehzRzsCF26RHF
 ```
 
-Consider next the fractional bits of π.  The first 128 becomes this
+Consider next the fractional bits of π.  The first 128 become this
 22-character string:
 
 ```
@@ -265,8 +265,8 @@ minimum is needed in all cases.
 
 ###  Locality 3
 
-Earlier I mentioned how in the original letter encoding one may need
-to know all the digits to deduce even one digit.  Here, I consider the
+Earlier I mentioned how in the original letter encoding one may need to
+know all the digits to deduce even one letter.  Here, I consider the
 reverse problem: how many letters (or bytes) one needs to get digits
 (or characters) of the encoding.
 
