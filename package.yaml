@@ -15,7 +15,7 @@ executable:
 
 dependencies:
    - base >= 4.9 && < 5
-   - bytestring >= 0.10 && < 0.11
-   - vector >= 0.12 && < 0.13
+   - bytestring >= 0.10 && < 0.12
+   - vector >= 0.12 && < 0.14
    - split >= 0.2 && < 0.3
 
