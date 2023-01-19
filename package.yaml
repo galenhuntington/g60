@@ -1,5 +1,5 @@
 name: g60-demo
-version: 0.1.0
+version: 0.1.1
 synopsis: G60 encoding.
 author: Galen Huntington <galen@alumni.reed.edu>
 license: MIT
@@ -10,8 +10,9 @@ source-dirs:
 
 library: {}
 
-executable:
-   main: demo.hs
+executables:
+   g60:
+     main: demo.hs
 
 dependencies:
    - base >= 4.9 && < 5

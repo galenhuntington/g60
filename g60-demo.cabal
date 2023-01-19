@@ -1,13 +1,13 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.34.4.
+-- This file has been generated from package.yaml by hpack version 0.35.1.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 072e85fd2ee74d3316324574f0aab9fcf70e97410bb3f14de6b81130f36d0f5a
+-- hash: f69e27a9dfc0136ffdd9cd7d1a42cc468c399e51462c2ace2b70e60b7490d32a
 
 name:           g60-demo
-version:        0.1.0
+version:        0.1.1
 synopsis:       G60 encoding.
 category:       Codec
 author:         Galen Huntington <galen@alumni.reed.edu>
@@ -27,7 +27,7 @@ library
     , vector >=0.12 && <0.14
   default-language: Haskell2010
 
-executable g60-demo
+executable demo
   main-is: demo.hs
   other-modules:
       Paths_g60_demo
