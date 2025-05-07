@@ -1,5 +1,5 @@
 name: g60-demo
-version: 0.1.1
+version: 0.1.2
 synopsis: G60 encoding.
 author: Galen Huntington <galen@alumni.reed.edu>
 license: MIT
@@ -16,7 +16,7 @@ executables:
 
 dependencies:
    - base >= 4.9 && < 5
-   - bytestring >= 0.10 && < 0.12
+   - bytestring >= 0.10 && < 0.13
    - vector >= 0.12 && < 0.14
    - split >= 0.2 && < 0.3
 
